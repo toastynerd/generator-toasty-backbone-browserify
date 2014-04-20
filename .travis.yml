@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - '0.10'
+before_install:
+  - currentfolder=${PWD##*/}
+  - if [ "$currentfolder" != 'generator-toasty-backbone-browserify' ]; then cd .. && eval "mv $currentfolder generator-toasty-backbone-browserify" && cd generator-toasty-backbone-browserify; fi
+
