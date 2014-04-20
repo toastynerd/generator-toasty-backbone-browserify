@@ -1,0 +1,26 @@
+{
+  "name": "<%= _.slugify(appName) %>",
+  "version": "0.0.1",
+  "authors": [
+    "<%= authorName %> <<%= authorEmail %>>"
+  ],
+  "description": "<%= appDescription %>",
+  "main" : "server.js",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "backbone": "~1.1.2"
+  }
+}
